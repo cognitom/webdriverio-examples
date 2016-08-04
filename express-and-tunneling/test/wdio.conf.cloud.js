@@ -6,15 +6,18 @@ exports.config = Object.assign(base.config, {
     {
       browserName: 'chrome',
       platform: 'WIN10',
-      version: 'latest'
+      version: 'latest',
+      tunnel: true
     },
     {
       browserName: 'firefox',
       platform: 'WIN10',
-      version: 'latest'
+      version: 'latest',
+      tunnel: true
     }
   ],
   services: ['testingbot'],
   user: process.env.TESTINGBOT_KEY,
-  key: process.env.TESTINGBOT_SECRET
+  key: process.env.TESTINGBOT_SECRET,
+  tbTunnel: true
 })
