@@ -3,7 +3,7 @@
 A basic example with `wdio` test runner. This example doesn't need the local Selenium standalone server.
 
 - Pros: [synchronous mode](http://webdriver.io/guide/getstarted/v4.html#It’s-all-synchronous)
-- Cons: need to install Java and Selenium locally
+- Cons: slower than standalone mode while local testing
 
 ## Requirements
 
