@@ -1,0 +1,20 @@
+{
+  "name": "webdriverio-example-without-local-selenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "npm run test-local && npm run test-cloud",
+    "test-cloud": "E2E_ENV=cloud mocha -t 30000 test/e2e.js",
+    "test-local": "E2E_ENV=local mocha -t 30000 test/e2e.js"
+  },
+  "author": "Tsutomu Kawamura",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.0.0",
+    "phantomjs-prebuilt": "^2.1.10",
+    "require-dir": "^0.3.0",
+    "webdriverio": "^4.2.3"
+  }
+}
