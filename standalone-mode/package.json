@@ -1,5 +1,5 @@
 {
-  "name": "webdriverio-example-without-local-selenium",
+  "name": "webdriverio-example-standalone-mode",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
