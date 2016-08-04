@@ -84,5 +84,3 @@ $ npm test
   - `wdio.conf.base.js` : base settings
   - `wdio.conf.cloud.js` : settings for the cloud environment
   - `wdio.conf.local.js` : settings for the local environment
-
-Note: basically you don't need to change `e2e.js`.
