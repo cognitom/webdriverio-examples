@@ -1,3 +1,4 @@
+'use strict'
 /** Capabilities (browsers) */
 const capabilities = [
   { browserName: 'phantomjs' }

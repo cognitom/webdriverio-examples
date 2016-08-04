@@ -1,3 +1,4 @@
+'use strict'
 /** config of connection to the cloud service */
 const base = {
   host: 'hub.testingbot.com',

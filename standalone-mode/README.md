@@ -1,11 +1,15 @@
-# Without local Selenium
+# Standalone Mode
 
-This example doesn't need Selenium installation locally.
+This example doesn't need Selenium installation locally. See more detail about [standalone mode](http://webdriver.io/guide/getstarted/modes.html#Standalone-Mode) here.
+
+- Pros: flexibility and better control
+- Cons: can't use [synchronous mode](http://webdriver.io/guide/getstarted/v4.html#It’s-all-synchronous) (because it's a part of `wdio` test runner)
 
 ## Requirements
 
 A cloud testing service account is needed: [Saucelabs](https://www.saucelabs.com/), [BrowserStack](https://www.browserstack.com/) or [TestingBot](https://testingbot.com/). This example uses TestingBot.
 
+- Node.js is installed to your local system
 - TestingBot account
 - TestingBot key (set to `$TESTINGBOT_KEY` as an environment variable)
 - TestingBot secret (set to `$TESTINGBOT_SECRET` as an environment variable)
