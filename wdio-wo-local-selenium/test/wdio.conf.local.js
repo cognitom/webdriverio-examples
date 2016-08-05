@@ -11,10 +11,5 @@ exports.config = Object.assign(base.config, {
     // If you want to use other browsers,
     // you may need local Selenium standalone server.
   ],
-  onPrepare () {
-    return phantomjs.run('--webdriver=4444').then(p => program = p)
-  },
-  onComplete () {
-    program.kill()
-  }
+  services: ['phantomjs']
 })

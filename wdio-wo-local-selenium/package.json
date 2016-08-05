@@ -13,8 +13,8 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "^3.0.0",
-    "phantomjs-prebuilt": "^2.1.10",
     "wdio-mocha-framework": "^0.4.0",
+    "wdio-phantomjs-service": "^0.1.0",
     "wdio-spec-reporter": "0.0.3",
     "wdio-testingbot-service": "^0.1.6",
     "webdriverio": "^4.2.3"
