@@ -1,7 +1,5 @@
 'use strict'
-const
-  phantomjs = require('phantomjs-prebuilt'),
-  base = require('./wdio.conf.base')
+const base = require('./wdio.conf.base')
 
 let program
 
