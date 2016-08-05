@@ -9,7 +9,7 @@ A basic example with `wdio` test runner. This example doesn't need the local Sel
 
 A cloud testing service account is needed: [Saucelabs](https://www.saucelabs.com/), [BrowserStack](https://www.browserstack.com/) or [TestingBot](https://testingbot.com/). This example uses TestingBot.
 
-- Node.js and Java are installed to your local system
+- Node.js are installed to your local system
 - TestingBot account
 - TestingBot key (set to `$TESTINGBOT_KEY` as an environment variable)
 - TestingBot secret (set to `$TESTINGBOT_SECRET` as an environment variable)
