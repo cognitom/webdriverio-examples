@@ -30,6 +30,7 @@ This example has `devDependencies` below:
 - [WebdriverIO](http://webdriver.io/): WebDriver and test runner (wdio)
   - wdio-mocha-framework
   - wdio-spec-reporter
+  - wdio-phantomjs-service
   - wdio-testingbot-service
 
 Note: Selenium standalone server is not needed.
