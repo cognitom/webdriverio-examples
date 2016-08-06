@@ -1,8 +1,6 @@
 'use strict'
 const base = require('./wdio.conf.base')
 
-let program
-
 exports.config = Object.assign(base.config, {
   capabilities: [
     { browserName: 'phantomjs' }
