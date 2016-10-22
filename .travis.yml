@@ -3,7 +3,7 @@ node_js:
   - '6'
   - '4'
 env:
-  - TEST-DIR=standalone-mode
+  - TEST_DIR=standalone-mode
   - TEST_DIR=wdio-phantomjs-only
   - TEST_DIR=wdio-wo-local-selenium
   - TEST_DIR=express-and-tunneling
