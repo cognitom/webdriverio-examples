@@ -1,6 +1,6 @@
 # WDIO w/o Local Selenium
 
-A basic example with `wdio` test runner. This example doesn't need the local Selenium standalone server.
+A basic example with `wdio` test runner. This example works with a cloud testing service, but it doesn't need the local Selenium standalone server.
 
 - Pros: [synchronous mode](http://webdriver.io/guide/getstarted/v4.html#It’s-all-synchronous)
 - Cons: slower than standalone mode while local testing
