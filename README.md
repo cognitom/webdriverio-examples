@@ -8,7 +8,7 @@ Here are some examples for [WebdriverIO](http://webdriver.io/): a well known imp
 
 - Ex1. [WDIO with PhantomJS only](wdio-phantomjs-only)
 - Ex2. [WDIO with PhantomJS and Cloud Testing](wdio-wo-local-selenium): Ex1 + cloud testing
-- Ex3. [Express and Tunneling](wdio-phantomjs-only): Ex2 + Tunneling
+- Ex3. [Express and Tunneling](express-and-tunneling): Ex2 + Tunneling
 
 ## Testing in Standalone Mode
 
