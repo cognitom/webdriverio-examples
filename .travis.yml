@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - '6'
+  - '4'
+env:
+  - TEST-DIR=standalone-mode
+  - TEST_DIR=wdio-phantomjs-only
+  - TEST_DIR=wdio-wo-local-selenium
+  - TEST_DIR=express-and-tunneling
+script: cd $TEST_DIR && npm install && npm test

@@ -1,3 +1,5 @@
+[![Build Status][travis-image]][travis-url] [![MIT License][license-image]][license-url]
+
 # WebdriverIO Examples
 
 Here are some examples for [WebdriverIO](http://webdriver.io/): a well known implementation of WebDriver in NodeJS.
@@ -15,3 +17,10 @@ Here are some examples for [WebdriverIO](http://webdriver.io/): a well known imp
 If it's the first time you use WebdriverIO, we strongly recomend you to use it with `wdio` like above. But, sometimes `wdio` could be a bit messy when we need to combine some testing tools together. This example shows you how to do it without `wdio`.
 
 - Ex4. [Standalone mode](standalone-mode): basically equivalent to Ex2
+
+
+[travis-image]:https://img.shields.io/travis/cognitom/webdriverio-examples.svg?style=flat-square
+[travis-url]:https://travis-ci.org/cognitom/webdriverio-examples
+
+[license-image]:http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
+[license-url]:LICENSE
