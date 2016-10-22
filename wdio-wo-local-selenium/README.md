@@ -1,4 +1,4 @@
-# WDIO w/o Local Selenium
+# WDIO with PhantomJS and Cloud Testing
 
 A basic example with `wdio` test runner. This example works with a cloud testing service, but it doesn't need the local Selenium standalone server.
 
