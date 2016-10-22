@@ -5,6 +5,8 @@ A basic example with `wdio` test runner. This example works with a cloud testing
 - Pros: [synchronous mode](http://webdriver.io/guide/getstarted/v4.html#It’s-all-synchronous)
 - Cons: slower than standalone mode while local testing
 
+*You don't need any cloud testing? Check [a simpler example](../wdio-phantomjs-only/) here.*
+
 ## Requirements
 
 A cloud testing service account is needed: [Saucelabs](https://www.saucelabs.com/), [BrowserStack](https://www.browserstack.com/) or [TestingBot](https://testingbot.com/). This example uses TestingBot.
