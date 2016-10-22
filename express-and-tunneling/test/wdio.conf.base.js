@@ -18,7 +18,8 @@ exports.config = {
   framework: 'mocha',
   reporters: ['spec'],
   mochaOpts: {
-    ui: 'bdd'
+    ui: 'bdd',
+    timeout: 30000
   },
   onPrepare () {
     const app = express()
