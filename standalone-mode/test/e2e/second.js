@@ -8,7 +8,7 @@ module.exports = () => {
       return browser
         .url('https://github.com/')
         .getTitle().then(title => {
-           assert.equal(title, 'How people build software · GitHub')
+           assert.equal(title, 'The world\'s leading software development platform · GitHub')
         })
     })
   })
