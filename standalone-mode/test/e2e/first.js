@@ -8,7 +8,7 @@ module.exports = () => {
       return browser
         .url('https://developer.mozilla.org/en-US/')
         .getTitle().then(title => {
-           assert.equal(title, 'Mozilla Developer Network')
+           assert.equal(title, 'MDN Web Docs')
         })
     })
   })
